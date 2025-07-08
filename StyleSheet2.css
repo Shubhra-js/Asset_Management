@@ -1,0 +1,162 @@
+﻿/* === Base Page Styling === */
+body {
+    background-color: #e6f2fb; /* Soft pastel blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e3a8a;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Main Layout: Form + Image === */
+.asset-form-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 60px 40px;
+}
+    .asset-form-layout .button {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+.form-container {
+    flex: 1;
+    margin-top:100px;
+    background-color: #ffffff;
+    padding: 35px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(173, 216, 230, 0.4); /* Light pastel blue shadow */
+    max-width: 450px;
+    width: 80%;
+}
+
+    /* === Form Heading === */
+    .form-container h2 {
+        text-align: center;
+        color: #7393B3;
+        font-size: 26px;
+        margin-bottom: 30px;
+        font-family: ALgerian;
+        letter-spacing: 1px;
+    }
+
+
+    /* === Label Styling === */
+    .form-container label {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+
+    /* === Inputs & Dropdown === */
+    .form-group input[type="text"],
+    .form-group select {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #aad4ff;
+        background-color: #f7fbff;
+        border-radius: 8px;
+        font-size: 15px;
+        transition: border-color 0.3s ease-in-out;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #62a4ff;
+            outline: none;
+        }
+
+/* === Submit Button === */
+.button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #62a4ff; /* pastel blue */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(100, 149, 237, 0.3);
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+    .button-group .button {
+        flex: 1;
+    }
+
+.cancel-button {
+    background-color: #e57373; /* Soft red */
+}
+
+    .cancel-button:hover {
+        background-color: #d9534f;
+    }
+
+
+    .button:hover {
+        background-color: #4d94e9;
+        box-shadow: 0px 6px 16px rgba(100, 149, 237, 0.5);
+    }
+
+.image-box {
+    flex: 1;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin-top: 210px;
+}
+
+.styled-image {
+    width: 530px; 
+    height: 610px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(70, 130, 180, 0.4);
+    margin-top: 350px;
+    margin-left: 90px;
+}
+
+.radio-options label {
+    font-weight: normal;
+    color: #1e3a8a;
+}
+.radio-options {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between options */
+    
+    
+    margin-bottom: 5px; /* Consistent spacing with other fields */
+}
+
+
+.radio-options input[type="radio"] {
+    margin-right: 6px;
+}
+
+
+

@@ -1,0 +1,127 @@
+﻿
+.asset-form-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 60px 40px;
+}
+.image-box {
+    flex: 1;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin-top: 90px;
+}
+
+.styled-image {
+    width: 530px; 
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(70, 130, 180, 0.4);
+    margin-top: 350px;
+    margin-left:90px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px 45px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(173, 216, 230, 0.4);
+    max-width: 500px;
+    width: 100%;
+}
+
+    /* === Form Heading === */
+    .form-container h2 {
+        text-align: center;
+        color: #7393B3;
+        font-size: 28px;
+        margin-bottom: 30px;
+        font-family: 'Algerian';
+        letter-spacing: 1px;
+    }
+
+/* === Form Group === */
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #1e3a8a;
+    }
+
+    /* === Inputs & Dropdown === */
+    .form-group input[type="text"],
+    .form-group select {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #aad4ff;
+        background-color: #f7fbff;
+        border-radius: 8px;
+        font-size: 15px;
+        transition: border-color 0.3s ease-in-out;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #62a4ff;
+            outline: none;
+        }
+
+/* === Radio Buttons === */
+.radio-options {
+    display: flex;
+    padding: 0 10px;
+}
+
+    .radio-options label {
+        font-weight: normal;
+        color: #1e3a8a;
+    }
+
+/* === Submit Button === */
+.button {
+    width: 100%;
+    background-color: #62a4ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(100, 149, 237, 0.3);
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+    .button-group .button {
+        flex: 1;
+    }
+
+.cancel-button {
+    background-color: #e57373; /* Soft red */
+}
+
+    .cancel-button:hover {
+        background-color: #d9534f;
+    }
+
+
+.button:hover {
+    background-color: #4d94e9;
+    box-shadow: 0px 6px 16px rgba(100, 149, 237, 0.5);
+}
+
